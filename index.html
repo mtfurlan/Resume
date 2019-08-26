@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!--
+			Resume layout idea taken from Uvis Grinfelds, prettyspoon.com
+			That website was down when I found the layout, so I couldn't get permission to use any of it, so I just used it as a design guide and coded everything myself.
+			Mark Furland, 2014
+		-->
+
+		<title>Mark Furland Resume</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="style.css" media="all">
+	</head>
+	<body>
+		<div class="container">
+
+		<!-- Header -->
+		<header class="row bottom">
+			<div class="col-xs-8 title">
+				<h1 class="name">Mark Furland</h1>
+				<h4 class="description">BS Computer Science: Embedded, Web Backend/Full Stack</h4>
+			</div>
+			<div class="col-xs-4 contact">
+				<ul>
+					<li><i class="fa fa-envelope"></i> <a href="mailto:mtfurlan@mtu.edu">mtfurlan@mtu.edu</a></li>
+					<li><i class="fa fa-github" ></i> <a href="https://github.com/mtfurlan/" >https://github.com/mtfurlan/</a></li>
+					<li><i class="fa fa-home" ></i> <a href="http://technicallyCompetent.com" >http://technicallycompetent.com</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<!-- Experience -->
+		<article class="row bottom">
+			<header class="col-xs-3">
+				<h3>Work Experience</h3>
+			</header>
+			<div class="col-xs-9">
+				<section class="subsection bottom">
+					<h4>Software Engineer</h4>
+					<h5><a href="http://www.tomesoftware.com/">Tome Software</a></h5>
+					<h5>2016-present</h5>
+				</section>
+				<section class="subsection bottom">
+					<h4>Process Automation Intern</h4>
+					<h5>ArcelorMittal</h5>
+					<h5>Summer 2015</h5>
+					<p>[C#/WPF/MS Sync Framework] Developed a C# application following MVVM principles to track slab defects. Worked the Microsoft Sync Framework to have a set of occasionally connected databases upload data properly.</p>
+				</section>
+				<section class="subsection">
+					<h4>Web Development Internship</h4>
+					<h5>University of Vermont Web Team</h5>
+					<h5>Burlington, Vermont</h5>
+					<h5>Fall 2012 - Summer 2014</h5>
+					<p>[PHP/SQL] Lead projects such as updating the middle/front upon backend changes</p>
+					<p>[Responsive design] Worked mobile first, for mobile-friendly websites</p>
+				</section>
+			</div>
+		</article>
+
+		<!-- Education -->
+		<article class="row bottom">
+			<header class="col-xs-3">
+				<h3>Education</h3>
+			</header>
+			<div class="col-xs-9">
+				<section class="subsection bottom">
+					<h4>Michigan Technological University</h4>
+					<h5>Houghton, Michigan</h5>
+					<h5>2013-2016</h5>
+					<h5>BS Computer Science, Graduated May 2016</h5>
+					<p>Department GPA: 3.11, Cumulative GPA: 3.1</p>
+					<p>[C, Matlab, R, Java, PHP, SQL, Scripting(Bash, Perl, Python, etc)]</p>
+					<h5>Study Abroad in England</h5>
+					<p>Completed through MTU with a professor from MTU</p>
+					<!--<p>Courses were not discrete; topics were the history of england, archaeology</p>-->
+				</section>
+				<section class="subsection">
+					<h4>University of Vermont</h4>
+					<h5>Burlington, Vermont</h5>
+					<h5>2012-2013</h5>
+					<h5>BS Computer Science(First year)</h5>
+				</section>
+			</div>
+		</article>
+
+		<!-- Leadership -->
+		<article class="row bottom">
+			<header class="col-xs-3">
+				<h3>Leadership Experience</h3>
+			</header>
+			<div class="col-xs-9">
+				<section class="subsection bottom">
+					<h4>MTU IEEE Student Branch Systems Administrator and Lab Manager</h4>
+					<h5>2014-2016</h5>
+					<p>Setup a Slackware based Samba Active Directory Domain Controller</p>
+					<p>Designed and built a hexcopter controlled with the APM 2.5 from scratch.</p>
+					<p>Can build a circuit.</p>
+				</section>
+				<section class="subsection bottom">
+					<h4>FIRST Robotics Tech Challenge Team Leader</h4>
+					<h5>2010-2012</h5>
+					<p>The FIRST Tech Challenge is a robotics challenge for high school students worldwide</p>
+					<p>Progressed to the International competition in 2012</p>
+				</section>
+				<section class="subsection">
+					<h4>Eagle Scout</h4>
+					<p>Achieved in 2011, Troop 635, Essex, Vermont</p>
+				</section>
+			</div>
+		</article>
+
+		<!-- Skills -->
+		<article class="row bottom-noprint">
+			<header class="col-xs-3">
+				<h3>Skills</h3>
+			</header>
+			<div class="col-xs-9">
+				<div class="row skills">
+					<ul class="col-xs-5">
+						<li><h4>Programming Languages</h4></li>
+						<li>C/C++</li>
+						<li>HTML/CSS/Javascript</li>
+						<li>C#/Java</li>
+						<li>Matlab</li>
+						<li class="notPrint">PHP</li><!--Won't fit on the american A4 otherwise...-->
+						<li>SQL</li>
+						<li>Perl</li>
+					</ul>
+					<ul class="col-xs-7">
+						<li><h4>Other Relevant Skills</h4></li>
+						<li>Git</li>
+						<li>General Linux Usage</li>
+						<li>Linux System Administration</li>
+						<li>Samba Active Directory Domain Controller</li>
+						<li>Regular Expressions</li>
+					</ul>
+				</div>
+			</div>
+		</article>
+
+
+		<div class="printFix"></div>
+
+		<!-- Interests/projects -->
+		<article class="row bottom printFixPadding">
+			<header class="col-xs-3">
+				<h3>Interests &amp; Projects</h3>
+			</header>
+			<div class="col-xs-9">
+				<section class="subsection bottom">
+					<h4>Hackathons/Programming Competitions</h4>
+					<ul>
+						<li>2016 Spring: Organizer of Winter WonderHack</li>
+						<li>2015 Fall: MinneHack, Local Hack Day</li>
+						<li>2015 Spring: MHacks V, BonzAI Brawl</li>
+						<li>2014 Fall: MHacks IV, UHack, Barricuda AI Programming Competition</li>
+						<li>2014 Spring: MHacks III, Techhacks II, Hack Illinois, BonzAI Brawl</li>
+						<li>2013 Fall: MHacks II, Techhacks I</li>
+						<li style="list-style-type: none;"><!--Woo inline CSS. It's a one off thing, if I ever had another it's totally getting a class-->
+							<ul>
+								<li>Placed third in TechHacks I with a hardware project</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<section class="subsection bottom">
+					<h4>Fuzzy Controller on an FPGA</h4>
+					<h5>2016</h5>
+					<p>[Verilog, Matlab] We developed a (probably) novel method of putting a fuzzy controller on an FPGA, and are working on a tool to take Matlab FIS files and automatically convert it to Verilog.</p>
+					<p>Hope to have a paper ready to publish later this summer</p>
+				</section>
+				<section class="subsection bottom">
+					<h4>Internet of Things Projects</h4>
+					<p>[PHP, Perl, SQL, JS] Temperature Graphing RPI: Developed a web-displayed one-wire temperature sensing network hosted on an RPI.(2012-2013)</p>
+					<p>[Particle Photon, C] IoTea: If This Then That controlled Teapot. Developed exclusively for the pun.(2016)</p>
+					<p>[Python, C] Physical Botnet: Demonstrated a proof of concept IRC control of IO pins with an RPI, and I plan to do it with an arduino or an avr/arm chip in the near future.(2016)</p>
+				</section>
+				<section class="subsection bottom">
+					<h4><a class="printLink" href="https://github.com/mtfurlan/Debian-LiveCD-for-Artemis/">Custom Debian Live USB</a></h4>
+					<h5>Designed to run Artemis Spaceship Bridge Simulator</h5>
+					<h5>2014</h5>
+					<p>[Debian, Bash] Created a custom Debian LiveCD as solution to run a windows native game, which can be distributed without redistributing the game</p>
+				</section>
+				<section class="subsection bottom">
+					<h4>Penny Arcade Expo Schedule Parser</h4>
+					<h5>2013-2015</h5>
+					<p>[PHP, Bootstrap] Developed a tool to parse the XML schedule given by Penny Arcade convention into an iCal format</p>
+					<p>Used Google Analytics to track usage</p>
+				</section>
+				<section class="subsection">
+					<h4>Userscripts</h4>
+					<h5>Userscripts are client-side javascript for implementing functionality on websites the client does not control</h5>
+					<p>[Javascript] Developed a set of userscripts to fix small problems. Install counts are from userscripts.org on 2014-02-19</p>
+					<ul>
+						<li>Added arrow key navigation to multiple webcomics: 1251 total installs</li>
+						<li>HTML5 Video autoplay prevention: 3869 installs</li>
+					</ul>
+				</section>
+			</div>
+		</article>
+
+		<!-- Footer -->
+		<footer>
+			<span class="notPrint">Designed to be printer friendly, but only works on one specific laptop | </span><span>Updated 2016-09-27</span>
+		</footer>
+	</div><!--container-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+	</body>
+</html>
